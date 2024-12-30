@@ -1,0 +1,39 @@
+{
+  "name": "demo-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "oracledb": "^6.6.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa__cors": "^5.0.0",
+    "@types/node-windows": "^0.1.6",
+    "node-windows": "1.0.0-beta.8",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
